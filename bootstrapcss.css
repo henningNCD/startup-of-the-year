@@ -1,0 +1,43 @@
+body,html {
+	width: 100%;
+	height: 100%;
+	font-family: fantasy,sans-serif;
+	background: url(nature.jpg) no-repeat center;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #50F125;
+}
+
+hr {
+    margin: 20px auto;
+    color: #AFF29D;
+    border: 3px solid #AFF29D;
+    max-width: 65px;
+    opacity: 1;      
+}
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700px;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color:#AFF29D;
+	border-color: #AFF29D;
+}
+
+.btn-primary:hover{
+	background-color: #86E76D;
+	border-color: #AFF29D;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
